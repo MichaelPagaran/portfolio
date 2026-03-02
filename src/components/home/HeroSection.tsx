@@ -18,25 +18,25 @@ export function HeroSection() {
                             className="mb-8 px-4 py-1.5 rounded-full bg-navy/10 dark:bg-white/10 text-navy dark:text-white border-navy/20 dark:border-white/20 font-semibold"
                         >
                             <TrendingUp className="h-4 w-4 text-gold mr-2" />
-                            Business-Driven Engineering
+                            Cybersecurity & AI Platforms
                         </Badge>
 
                         <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-foreground leading-[1.15]">
                             Michael Martin Pagaran
                             <br />
                             <span className="text-navy dark:text-gold block mt-2">
-                                Building Scalable Solutions
+                                Senior Full-Stack Engineer
                             </span>
                             <span className="text-2xl sm:text-3xl lg:text-4xl font-normal text-muted-foreground block mt-3">
-                                with a Business-First Mindset
+                                specializing in Cybersecurity and AI-Driven Platforms
                             </span>
                         </h1>
 
                         <p className="text-lg sm:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                            I translate complex requirements into actionable product roadmaps.
-                            My focus is on high-ROI engineering, prioritizing business
-                            necessity and scalability over code complexity. Let&apos;s build
-                            products that actually move the needle.
+                            Versatile Full-Stack Developer and Technical Project Manager
+                            with 3+ years experience driving software innovation. I bridge
+                            the gap between technical execution and strategic vision,
+                            focusing on architectural integrity and high-velocity delivery.
                         </p>
 
                         <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
@@ -91,10 +91,10 @@ export function HeroSection() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-muted-foreground font-semibold uppercase tracking-wider">
-                                        Product Vision
+                                        Leadership
                                     </p>
                                     <p className="text-base font-bold text-foreground">
-                                        ROI &amp; Delivery Focus
+                                        Technical &amp; Product
                                     </p>
                                 </div>
                             </div>

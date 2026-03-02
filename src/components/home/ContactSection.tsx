@@ -15,8 +15,8 @@ export function ContactSection() {
                             Ready to build something robust?
                         </h2>
                         <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto">
-                            Whether you need a full-stack overhaul or technical leadership for
-                            your next big project, I&apos;m just a message away.
+                            Whether you need a full-stack overhaul, AI integration, or technical
+                            leadership for your next big project, I&apos;m just a message away.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
                             <Button
@@ -24,7 +24,7 @@ export function ContactSection() {
                                 size="lg"
                                 className="bg-white text-navy hover:bg-gray-100 rounded-lg"
                             >
-                                <a href="mailto:rico@example.com">
+                                <a href="mailto:mmpagaran64@gmail.com">
                                     <Mail className="mr-2 h-5 w-5 text-navy" />
                                     Send Email
                                 </a>
@@ -36,7 +36,7 @@ export function ContactSection() {
                                 className="text-white border-white/30 hover:bg-white/10 rounded-lg bg-transparent"
                             >
                                 <a
-                                    href="https://linkedin.com"
+                                    href="https://www.linkedin.com/in/michael-martin-pagaran-67a459203/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

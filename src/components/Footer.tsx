@@ -21,7 +21,7 @@ export function Footer() {
                     </div>
                     <div className="flex space-x-6">
                         <a
-                            href="https://github.com"
+                            href="https://github.com/MichaelPagaran"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-muted-foreground hover:text-gold transition-colors"
@@ -30,7 +30,7 @@ export function Footer() {
                             <Github className="h-6 w-6" />
                         </a>
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/in/michael-martin-pagaran-67a459203/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-muted-foreground hover:text-gold transition-colors"

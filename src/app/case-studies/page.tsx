@@ -6,6 +6,7 @@ import {
     ShieldCheck,
     Shield,
     LockKeyhole,
+    BarChart3,
     TrendingUp,
     Users,
     PiggyBank,
@@ -28,6 +29,7 @@ const iconMap: Record<string, React.ReactNode> = {
     ShieldCheck: <ShieldCheck className="h-6 w-6" />,
     Shield: <Shield className="h-6 w-6" />,
     LockKeyhole: <LockKeyhole className="h-6 w-6" />,
+    BarChart3: <BarChart3 className="h-6 w-6" />,
 };
 
 const iconColorMap: Record<string, string> = {
@@ -37,6 +39,8 @@ const iconColorMap: Record<string, string> = {
     teal: "bg-teal-50 dark:bg-teal-900/20 text-teal-700 dark:text-teal-400 border-teal-100 dark:border-teal-800",
     purple:
         "bg-purple-50 dark:bg-purple-900/20 text-purple-700 dark:text-purple-400 border-purple-100 dark:border-purple-800",
+    amber:
+        "bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-400 border-amber-100 dark:border-amber-800",
 };
 
 function renderMarkdownBold(text: string) {

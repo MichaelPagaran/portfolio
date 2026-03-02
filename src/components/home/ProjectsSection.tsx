@@ -1,18 +1,18 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { projects } from "@/data/portfolio";
 import {
-    LayoutDashboard,
-    ShoppingCart,
-    CloudCog,
+    Building2,
+    ShieldCheck,
+    Brain,
     Code,
     Link as LinkIcon,
     ArrowRight,
 } from "lucide-react";
 
 const iconMap: Record<string, React.ReactNode> = {
-    LayoutDashboard: <LayoutDashboard className="h-16 w-16 text-white/20" />,
-    ShoppingCart: <ShoppingCart className="h-16 w-16 text-white/20" />,
-    CloudCog: <CloudCog className="h-16 w-16 text-white/20" />,
+    Building2: <Building2 className="h-16 w-16 text-white/20" />,
+    ShieldCheck: <ShieldCheck className="h-16 w-16 text-white/20" />,
+    Brain: <Brain className="h-16 w-16 text-white/20" />,
 };
 
 export function ProjectsSection() {

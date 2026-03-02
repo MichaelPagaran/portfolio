@@ -69,3 +69,20 @@ To test the production build locally:
 ```bash
 npm run start
 ```
+
+## AWS Amplify Deployment
+
+This Next.js 15 application is fully compatible with **AWS Amplify Hosting**. 
+
+Amplify provides managed SSR hosting for Next.js out of the box using Amazon Linux 2023 environments. The project includes an `amplify.yml` file to handle the automated CI/CD pipeline.
+
+### Steps to Deploy:
+1. Initialize a git repository and commit your code.
+2. Push your project to a Git provider (GitHub, GitLab, Bitbucket, or AWS CodeCommit).
+3. Log in to the **AWS Amplify Console**.
+4. Click **Create new app** > **Host web app**.
+5. Connect your repository and select your main branch.
+6. Amplify will automatically detect the `amplify.yml` build configurations.
+7. Click **Save and deploy**.
+
+*Note: The Next.js pages in this portfolio are statically pre-rendered at build time, meaning AWS Amplify will serve them blazingly fast with zero Lambda cold-start overhead.*

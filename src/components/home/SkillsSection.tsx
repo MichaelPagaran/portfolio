@@ -1,10 +1,11 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { skills } from "@/data/portfolio";
-import { Code, Blocks, Cloud, Users } from "lucide-react";
+import { Code, Server, Brain, Cloud, Users } from "lucide-react";
 
 const iconMap: Record<string, React.ReactNode> = {
+    Server: <Server className="h-6 w-6" />,
     Code: <Code className="h-6 w-6" />,
-    Blocks: <Blocks className="h-6 w-6" />,
+    Brain: <Brain className="h-6 w-6" />,
     Cloud: <Cloud className="h-6 w-6" />,
     Users: <Users className="h-6 w-6" />,
 };
@@ -34,6 +35,12 @@ const colorMap: Record<string, { bg: string; hoverBg: string; text: string; dot:
         text: "text-orange-600 dark:text-orange-400",
         dot: "bg-orange-500",
     },
+    green: {
+        bg: "bg-green-100 dark:bg-green-900/20",
+        hoverBg: "group-hover:bg-green-600 group-hover:text-white",
+        text: "text-green-600 dark:text-green-400",
+        dot: "bg-green-500",
+    },
 };
 
 export function SkillsSection() {
@@ -51,7 +58,7 @@ export function SkillsSection() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
                     {skills.map((skill) => {
                         const colors = colorMap[skill.color];
                         return (
