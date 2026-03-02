@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
     {
         role: "Full-Stack Developer & Project Manager",
         company: "CyTech Innovations",
-        period: "2021 - Present",
+        period: "12/2021 - Present",
         description:
             "Spearheaded the high-level and sub-component design of enterprise-grade SIEM, DLP, and VDR platforms using Django and FastAPI, ensuring 99.9% uptime for production security tools. Directed a junior-heavy team of 15+ developers, implementing rigorous code review standards and automated development policies. Served as Scrum Master, managing sprint planning, backlog grooming, and stakeholder communication.",
         tags: ["Django", "FastAPI", "React"],
@@ -95,10 +95,11 @@ export const experiences: Experience[] = [
     {
         role: "Faculty & Technical Mentor",
         company: "Xavier University - Ateneo de Cagayan",
-        period: "2017 - 2018",
+        period: "08/2025 - Present",
         description:
             "Taught Object-Oriented Programming (OOP), Database Systems, Information Management, and Informatics. Directly applied teaching methodologies to professional development by training engineers in SOLID principles and relational database optimization.",
         tags: ["OOP", "Database Systems", "Informatics"],
+        isCurrent: true,
     },
 ];
 
