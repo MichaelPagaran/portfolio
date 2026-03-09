@@ -77,11 +77,11 @@ export const skills: Skill[] = [
 export const experiences: Experience[] = [
     {
         role: "Full-Stack Developer & Project Manager",
-        company: "CyTech Innovations",
+        company: "CyTech International",
         period: "12/2021 - Present",
         description:
             "Spearheaded the high-level and sub-component design of enterprise-grade SIEM, DLP, and VDR platforms using Django and FastAPI, ensuring 99.9% uptime for production security tools. Directed a junior-heavy team of 15+ developers, implementing rigorous code review standards and automated development policies. Served as Scrum Master, managing sprint planning, backlog grooming, and stakeholder communication.",
-        tags: ["Django", "FastAPI", "React"],
+        tags: ["Django", "FastAPI", "React", "Celery", "AWS", "Docker", "Scrum", "Microservices", "CI/CD", "Agile"],
         isCurrent: true,
     },
     {
