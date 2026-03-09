@@ -6,7 +6,7 @@ import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetHeader } from "@/components/ui/sheet";
 import { Menu, Sparkles } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -93,7 +93,7 @@ export function Navbar() {
                         </Avatar>
                         <div className="hidden sm:block">
                             <span className="font-display font-bold text-lg tracking-tight text-foreground leading-tight">
-                                Michael Martin<span className="text-gold"> Pagaran</span>
+                                MMP<span className="text-gold">.dev</span>
                             </span>
                         </div>
                     </Link>
@@ -157,11 +157,13 @@ export function Navbar() {
                                     <Menu className="h-5 w-5" />
                                 </Button>
                             </SheetTrigger>
-                            <SheetContent side="right" className="w-72">
-                                <SheetTitle className="font-display text-lg">
-                                    Michael<span className="text-gold">.biz</span>
-                                </SheetTitle>
-                                <nav className="flex flex-col gap-4 mt-8">
+                            <SheetContent side="right" className="w-72 p-6 flex flex-col">
+                                <SheetHeader className="text-left mb-4">
+                                    <SheetTitle className="font-display text-xl">
+                                        MMP<span className="text-gold">.dev</span>
+                                    </SheetTitle>
+                                </SheetHeader>
+                                <nav className="flex flex-col gap-5">
                                     {isHome ? (
                                         sectionLinks.map((link) => (
                                             <a

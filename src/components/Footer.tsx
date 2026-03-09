@@ -11,7 +11,7 @@ export function Footer() {
                     <div className="mb-4 md:mb-0">
                         <Link href="/">
                             <span className="font-display font-bold text-xl tracking-tight text-foreground">
-                                Michael Martin<span className="text-gold"> Pagaran</span>
+                                MMP<span className="text-gold">.dev</span>
                             </span>
                         </Link>
                         <p className="text-sm text-muted-foreground mt-1">
