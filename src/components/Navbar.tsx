@@ -45,7 +45,7 @@ export function Navbar() {
                         </Avatar>
                         <div className="hidden sm:block">
                             <span className="font-display font-bold text-lg tracking-tight text-foreground leading-tight">
-                                Michael<span className="text-gold">.biz</span>
+                                Michael Martin<span className="text-gold"> Pagaran</span>
                             </span>
                         </div>
                     </Link>
