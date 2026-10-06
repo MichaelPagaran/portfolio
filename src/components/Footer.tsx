@@ -29,15 +29,14 @@ export function Footer() {
                         >
                             <Github className="h-6 w-6" />
                         </a>
-                        <a
-                            href="https://www.linkedin.com/in/michael-martin-pagaran-67a459203/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-muted-foreground hover:text-gold transition-colors"
-                            aria-label="LinkedIn"
+                        <span
+                            aria-disabled="true"
+                            aria-label="LinkedIn (unavailable)"
+                            title="LinkedIn (unavailable)"
+                            className="text-muted-foreground opacity-50 cursor-not-allowed"
                         >
                             <Linkedin className="h-6 w-6" />
-                        </a>
+                        </span>
                     </div>
                 </div>
             </div>
