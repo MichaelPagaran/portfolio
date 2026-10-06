@@ -30,18 +30,14 @@ export function ContactSection() {
                                 </a>
                             </Button>
                             <Button
-                                asChild
+                                type="button"
                                 variant="outline"
                                 size="lg"
+                                disabled
+                                aria-label="LinkedIn (unavailable)"
                                 className="text-white border-white/30 hover:bg-white/10 rounded-lg bg-transparent"
                             >
-                                <a
-                                    href="https://www.linkedin.com/in/michael-martin-pagaran-67a459203/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    LinkedIn
-                                </a>
+                                LinkedIn
                             </Button>
                         </div>
                     </div>
